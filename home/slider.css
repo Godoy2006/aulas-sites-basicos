@@ -1,0 +1,32 @@
+.slides{
+    display: flex;
+    width: 300%;
+    height: 80%;
+    margin-left: -200px;
+}
+.slide{
+    width: 33.33%;
+    transition: 0.5s;
+}
+.slide img{
+    width: 50%;
+    height: 100%;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -33.333%;
+}
+#radio3:checked ~ .first{
+    margin-left: -66.66%;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #fff;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #fff;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #fff;
+}

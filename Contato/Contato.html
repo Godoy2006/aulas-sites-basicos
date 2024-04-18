@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-
+    <link rel="stylesheet" href="./contato.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -20,27 +20,45 @@
         </ul>
     </nav>
     <main>
-        <h2>Main</h2>
-        <p> Página inicial
-        <div>
-            <section>
-                <h3>Section</h3>
-                <p>Cr7</p>
-            </section>
-            <hr>
-            <section class="blue">
-                <h3>Section</h3>
-                <p>Cr7</p>
-            </section>
-        </div>
-    </main>
+        <form  class =" formulário-contato " >
+        <label  class =" entry-label " for =" name " > Nome Completo </label >
+        <input  class =" entry " type =" text " name ="" id =" name " obrigatório >
 
-    <aside>
-        <h2>Tópicos</h2>
-        <ul>
-            <li><a href="">Tópico 1</a></li>
-            <li><a href="">Tópico 2</a></li>
-            <li><a href="">Tópico 3</a></li>
+        <label  class =" entry-label " for =" email " > E-mail </label >
+        <input  class =" entry " type =" email " name ="" id =" email " obrigatório >
+
+        <label  class =" entry-label " for =" phone " > Número para contato </label >
+        <input  class =" entry " type =" tel " name ="" id =" phone " obrigatório >
+
+        <label  class =" entry-label " for =" message " > Deixe aqui sua mensagem </label >
+        <textarea textarea  class =" entry " name ="" id =" mensagem " cols =" 30 " rows =" 10 " > </textarea >
+
+        <div  class =" div-entry " >
+            <p  class =" entry-label " > Como prefere nosso contato? </p >
+            <label  class =" entry-label " for =" e-mail-choice " > <input  type =" radio " name =" contact-choice "
+                    id =" email-choice " > E-mail </label >
+
+            <label  class =" entry-label " for =" phone-choice " > <label input  type =" radio " name =" contact-choice "
+                    id =" phone-choice " > Telefone </label >
+
+            <label  class =" entry-label " for =" whatsapp-choice " lang =" en " > <label input  type =" radio " name =" contact-choice "
+                    id =" whatsapp-choice " > Whatsapp </label >
+        </div>​​
+        <rótulo label  class =" entry-label " for =" day-period " > Em qual horário prefere ser atendido? </rótulo>
+        <selecione  classe =" entrada " nome =" período do dia " id ="">
+            <option  value =" none " > ---Selecione aqui </option>
+            <option  value =" manhã " > Manhã </option>
+            <option  value =" tarde " > Tarde </option>
+            <option option  value =" noite " > Noite </option>
+        </selecione>
+
+        <label  for =" check-mailing " class =" entry-label " id =" checkbox "> Gostaria de receber nossas novidades por email?
+            <input  type =" checkbox " name ="" id =" check-mailing " > </label >
+
+        <formulário input  class =" entry " type =" submit " value =" Enviar formulário " >
+    </formulário>
+    </main>
+      
         </ul>
 
         <h2>Links importantes</h2>
